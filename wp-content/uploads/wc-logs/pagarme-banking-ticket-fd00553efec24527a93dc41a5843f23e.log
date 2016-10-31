@@ -1,0 +1,84 @@
+06-22-2016 @ 19:21:43 - Doing a transaction for order 860...
+06-22-2016 @ 19:21:43 - Transaction completed successfully! The transaction response is: Array
+(
+    [object] => transaction
+    [status] => waiting_payment
+    [refuse_reason] => 
+    [status_reason] => acquirer
+    [acquirer_response_code] => 
+    [acquirer_name] => development
+    [authorization_code] => 
+    [soft_descriptor] => 
+    [tid] => 
+    [nsu] => 
+    [date_created] => 2016-06-22T22:21:43.600Z
+    [date_updated] => 2016-06-22T22:21:43.819Z
+    [amount] => 52170
+    [authorized_amount] => 52170
+    [paid_amount] => 0
+    [refunded_amount] => 0
+    [installments] => 1
+    [id] => 533679
+    [cost] => 0
+    [card_holder_name] => 
+    [card_last_digits] => 
+    [card_first_digits] => 
+    [card_brand] => 
+    [postback_url] => https://loja.buenowines.com.br/wc-api/WC_Pagarme_Banking_Ticket_Gateway/
+    [payment_method] => boleto
+    [capture_method] => ecommerce
+    [antifraud_score] => 
+    [boleto_url] => https://pagar.me
+    [boleto_barcode] => 1234 5678
+    [boleto_expiration_date] => 2016-06-29T03:00:00.560Z
+    [referer] => api_key
+    [ip] => 205.186.176.25
+    [subscription_id] => 
+    [phone] => Array
+        (
+            [object] => phone
+            [ddi] => 55
+            [ddd] => 11
+            [number] => 55610427
+            [id] => 19218
+        )
+
+    [address] => Array
+        (
+            [object] => address
+            [street] => rua alvaro rorigues, 364
+            [complementary] => casa 1
+            [street_number] => 364
+            [neighborhood] => Brooklin
+            [city] => São Paulo
+            [state] => SP
+            [zipcode] => 04582000
+            [country] => Brasil
+            [id] => 19713
+        )
+
+    [customer] => Array
+        (
+            [object] => customer
+            [document_number] => 26002170880
+            [document_type] => cpf
+            [name] => Daniel Trenche
+            [email] => daniel@isso.ai
+            [born_at] => 
+            [gender] => 
+            [date_created] => 2015-12-21T20:14:08.000Z
+            [id] => 34326
+        )
+
+    [card] => 
+    [metadata] => Array
+        (
+        )
+
+    [antifraud_metadata] => Array
+        (
+        )
+
+)
+
+06-22-2016 @ 19:21:43 - Payment status for order 860 is now: waiting_payment

@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+.ultimate-popup-wrapper {
+    background: #fff none repeat scroll 0 0;
+    border-top: 8px solid;
+    padding: 35px;
+    position: fixed;
+    text-align: center;
+    z-index: 9999;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: .4s;
+            transition: .4s;
+    visibility: hidden;
+    max-width: 100%;
+}
+.ultimate-popup-wrapper-activate {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible;
+}
+.cross-btn-ppm {
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    right: 10px;
+    text-transform: uppercase;
+    top: 5px;
+    cursor: pointer;
+    z-index: 99;
+    font-family: arial, sans-serif;
+}
+.ultimate-popup-inner h2,
+.entry-content .ultimate-popup-inner h2,
+.entry-summary .ultimate-popup-inner h2,
+.page-content .ultimate-popup-inner h2,
+.comment-content .ultimate-popup-inner h2 {
+    font-size: 25px;
+    margin: 0 0 15px;
+    word-wrap: normal;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+        hyphens: none;
+}
+.ultimate-popup-inner {
+    font-size: 16px;
+}
+.ultimate-popup-shortcodes p {
+  margin-bottom: 15px;
+}
+.ultimate-popup-shortcodes input[type="text"],
+.ultimate-popup-shortcodes input[type="email"] {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px !important;
+    width: 100% !important;
+}
+.ultimate-popup-shortcodes {
+    margin: 30px auto 0;
+    max-width: 500px;
+    text-align: left;
+}
+.ultimate-popup-shortcodes br { display: none }
+.ultimate-popup-shortcodes input[type="submit"] {
+    border: medium none;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 17px;
+    padding: 15px;
+    width: 100%;
+    text-transform: uppercase;
+    -webkit-transition: .4s;
+            transition: .4s;
+}
+.ultimate-popup-shortcodes .gform_wrapper .gform_heading { display: none }
+.ultimate-popup-shortcodes .gform_wrapper .gform_footer {
+    margin: 15px 0 0;
+    padding: 0;
+}
+.ultimate-popup-wrapper-hide .lean-overlay,
+.ultimate-popup-wrapper-hide .ultimate-popup-wrapper {
+    display: none !important;
+    visibility: hidden !important;
+}
+.ultimate-popup-halfway-scroll-activate .cross-btn-ppm,
+.ultimate-popup-halfway-scroll-activate.ultimate-popup-theme-id-2 .cross-btn-ppm,
+.ultimate-popup-halfway-scroll-activate.ultimate-popup-theme-id-3 .cross-btn-ppm,
+.ultimate-popup-halfway-scroll-activate.ultimate-popup-theme-id-4 .cross-btn-ppm,
+.ultimate-popup-halfway-scroll-activate.ultimate-popup-theme-id-8 .cross-btn-ppm,
+.ultimate-popup-halfway-scroll-activate.ultimate-popup-theme-id-9 .cross-btn-ppm {
+    right: 0;
+    top: 0;
+    z-index: 99;
+    border-radius: 0;
+}
+.ultimate-popup-halfway-scroll-activate.ultimate-popup-theme-id-2 .cross-btn-ppm { top: -8px }
+.ultimate-popup-theme-id-5.ultimate-popup-halfway-scroll-activate .cross-btn-ppm {
+    background: #333;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    top: 20px;
+    z-index: 9;
+}
+.ultimate-popup-theme-id-5.ultimate-popup-halfway-scroll-activate .popup-inner-col-thumb { padding-top: 5px }
+.ultimate-popup-halfway-scroll-activate.ultimate-popup-theme-id-12 .cross-btn-ppm,
+.ultimate-popup-halfway-scroll-activate.ultimate-popup-theme-id-10 .cross-btn-ppm,
+.ultimate-popup-halfway-scroll-activate.ultimate-popup-theme-id-6 .cross-btn-ppm {
+    right: 10px;
+    top: 5px;
+}
+.ultimate-popup-theme-id-1 .cross-btn-ppm { right: 10px }
+
+
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .ultimate-popup-wrapper { overflow: auto }
+    .ultimate-popup-wrapper .pop-inner-column .popup-inner-col-thumb {
+        float: none;
+        margin-bottom: 30px;
+        margin-top: 0;
+        padding: 0;
+        width: auto;
+    }
+    .ultimate-popup-wrapper .pop-inner-column .popup-inner-col-cont {
+        float: none;
+        padding: 25px;
+        width: auto;
+    }
+    .ultimate-popup-automatic-activate .cross-btn-ppm,
+    .ultimate-popup-automatic-activate.ultimate-popup-theme-id-2 .cross-btn-ppm,
+    .ultimate-popup-automatic-activate.ultimate-popup-theme-id-3 .cross-btn-ppm,
+    .ultimate-popup-automatic-activate.ultimate-popup-theme-id-4 .cross-btn-ppm,
+    .ultimate-popup-automatic-activate.ultimate-popup-theme-id-8 .cross-btn-ppm,
+    .ultimate-popup-automatic-activate.ultimate-popup-theme-id-9 .cross-btn-ppm {
+        right: 0;
+        top: 0;
+        z-index: 99;
+        border-radius: 0;
+    }
+}

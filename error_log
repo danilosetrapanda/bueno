@@ -1,0 +1,5 @@
+[28-Jul-2016 23:10:38 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/buenowines/public_html/wp-includes/pomo/streams.php on line 110
+[28-Jul-2016 23:10:43 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/buenowines/public_html/wp-includes/pomo/streams.php on line 110
+[28-Jul-2016 23:10:45 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/buenowines/public_html/wp-includes/pomo/streams.php on line 110
+[28-Jul-2016 23:10:46 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/buenowines/public_html/wp-includes/pomo/streams.php on line 110
+[28-Jul-2016 23:10:48 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 72 bytes) in /home/buenowines/public_html/wp-includes/pomo/streams.php on line 110

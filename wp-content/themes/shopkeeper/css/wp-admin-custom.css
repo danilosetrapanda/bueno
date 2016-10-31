@@ -1,0 +1,51 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+	Theme Options
+		Menus
+		Redux
+		Revolution Slider 
+		
+[/Table of contents]
+-------------------------------------------------------------------*/
+
+
+/**********************************************************************************/
+/* Theme Options ******************************************************************/
+/**********************************************************************************/
+
+/* Menus */
+
+.menu .menu-item .field-background-url {
+	display:none;
+}
+
+.menu .menu-item-depth-0 .field-background-url {
+	display:block;
+}
+
+/* Redux */
+
+#wp-admin-bar-theme_options .dashicons-portfolio:before {
+	content: "\f108";
+	top:2px;
+}
+
+#adminmenu #toplevel_page_theme_options .menu-icon-generic div.wp-menu-image:before {
+	content: "\f108";
+}
+
+.redux-container .form-table > tbody > tr > th {
+	width: 30%;
+}
+
+.redux-container .redux_field_th {
+    padding: 40px 10px;
+}
+
+
+/* Revolution Slider */
+
+.rs-update-notice-wrap {
+	display:none !important;
+}

@@ -1,0 +1,299 @@
+/**
+ * Table of Contents
+ *
+ *Admin Tabs general
+ *Steps tables
+ *Styles tables
+ *Radio Buttons
+ */
+
+
+
+/*Admin Tabs general*/
+
+.arg-mc-wrapper {
+	margin: 27px 8px;
+}
+
+.arg-mc-tab-wrapper {
+	margin-bottom: 65px;
+}
+
+.arg-mc-wrapper .nav-tab {
+	font-size: 13px;
+	text-transform: uppercase;
+	line-height: 1;
+	border: none;
+	border-left: 1px solid #dcdcdc;
+	border-bottom: 3px solid #c9c9c9;
+	background: #e9e9e9;
+	min-width: 153px;
+	margin: 0;
+	padding: 22px 20px;
+	position: relative;
+}
+
+.arg-mc-wrapper .nav-tab:first-child {
+	border-left: none;	
+}
+
+.arg-mc-wrapper .nav-tab.nav-tab-active {
+	color: #000;
+	background: #fff;
+	border-bottom: 3px solid #000;
+}
+
+.arg-mc-wrapper .nav-tab:after {
+	display: none;
+    content: "";
+	
+	border-color: #000 transparent transparent;
+    border-style: solid;
+    border-width: 6px 6px 0;
+    
+	width: 0;
+    height: 0;
+    
+    margin-left: -6px;
+    position: absolute;
+	bottom: -9px;
+	left: 50%;
+}
+
+.arg-mc-wrapper .nav-tab.nav-tab-active:after {
+	display: block;
+}
+
+.arg-mc-wrapper .nav-tab:focus {
+	box-shadow: none;	
+}
+
+.arg-mc-wrapper .arg-mc-form {
+	margin: 0 0 0 7px;
+}
+
+.arg-mc-wrapper .form-table {
+	margin: 0 0 50px;
+}
+
+.arg-mc-wrapper .form-table th,
+.arg-mc-wrapper .form-table td {
+	vertical-align: top;
+	padding-top: 20px;
+}
+
+.arg-mc-wrapper .arg-mc-table-buttons td > * {
+	margin-top: 1px;
+}
+
+.arg-mc-wrapper .arg-mc-table-style td > * {
+	margin-top: 4px;
+}
+
+
+.arg-mc-wrapper .form-table > tbody > tr > th {
+    padding-right: 70px;
+    width: 420px;
+	
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.arg-mc-wrapper .form-table.arg-mc-table-buttons > tbody > tr > th {
+	width: 350px;
+}
+
+.arg-mc-top-heading {
+	font-size: 18px;
+	margin-bottom: 7px; 
+}
+
+.arg-mc-wrapper h3 {
+	font-size: 16px;
+}
+ 
+.arg-mc-top-text {
+	margin-top: 0;
+	margin-bottom: 58px;
+	max-width: 580px;
+}
+
+.arg-mc-top-text.arg-mc-text-general-settings {
+	margin-bottom: 39px;
+}
+
+.arg-mc-wrapper .arg-mc-description {
+	display: block;
+	font-size: 13px;
+	line-height: 1.3;
+	font-style: italic;
+	font-weight: 400;
+	color: #555;
+	margin-top: 3px;
+}
+
+.arg-mc-wrapper table input {
+	min-width: 210px;
+	padding: 5px 8px;
+	
+	border: 1px solid #ddd;
+    box-shadow: none;
+}
+
+.arg-mc-wrapper table textarea {
+	height: 67px;
+    min-width: 210px;
+    resize: none;
+}
+
+.arg-mc-wrapper table select[name="secondary_font_weight"] {
+	min-width: 210px;
+}
+
+.arg-mc-wrapper input.readonly,
+.arg-mc-wrapper input[readonly],
+.arg-mc-wrapper textarea.readonly,
+.arg-mc-wrapper textarea[readonly] {
+	background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    opacity: 0.5;
+}
+
+
+
+/*Steps tables*/
+
+.form-table.arg-mc-table-steps {
+	width: auto;
+	margin: -5px 0 70px;
+}
+
+.form-table.arg-mc-table-steps th {
+	padding: 6px 0;
+	line-height: 1;
+	width: auto;
+}
+
+.form-table.arg-mc-table-steps td {
+	padding: 0 2px 2px 0;
+}
+
+.form-table.arg-mc-table-steps th:last-child,
+.form-table.arg-mc-table-steps td:last-child {
+	width: 200px;
+	padding-left: 15px;
+}
+
+.form-table.arg-mc-table-steps input {
+	min-width: 210px;
+}
+
+.arg-mc-wrapper .combine-tabs-table.form-table {
+		margin-bottom: 70px;
+}
+
+.arg-mc-wrapper .combine-tabs-table.form-table > tbody > tr > th {
+	font-size: 15px;
+    width: 437px;
+	padding: 22px 50px 0 0;
+	vertical-align: top;
+}
+
+.arg-mc-wrapper .combine-tabs-table.form-table > tbody > tr > td {
+	padding-bottom: 0;
+}
+
+.combine-tabs-table .second-row td {
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.arg-mc-wrapper .combine-tabs-table input {
+    min-width: 209px;
+    padding: 5px;
+}
+
+.arg-mc-wrapper .combine-tabs-table input:nth-child(2) {
+	min-width: 0;
+	width: 125px;
+	margin-right: -2px;
+}
+
+.combine-tables-step-name {
+	font-size: 14px;
+	line-height: 1;
+    font-style: italic;
+    padding: 0px 0 12px;
+}
+
+
+
+/*Styles tables*/
+
+.arg-mc-wrapper .arg-mc-table-style input[type="text"] {
+	min-width: 0;
+	max-width: 107px;
+}
+
+.arg-mc-wrapper table select {
+	width: 107px;
+	box-shadow: none;
+}
+
+
+
+/*Radio Buttons*/
+
+.arg-mc-wrapper .radio-buttons-wrapper li {
+	float: left;
+	margin: 0;
+}
+
+.arg-mc-wrapper .input-radio-button {
+	display: none;
+}
+
+.arg-mc-wrapper .input-label-button {
+    display: block;
+    font-size: 13px;
+    line-height: normal;
+
+	color: #333;
+	background: #f9f9f9;
+
+    cursor: pointer;
+    margin: 2px 0 0;
+    overflow: visible;
+    padding: 4px 13px 5px;
+    
+	
+	float: left;
+	-webkit-transition: background-image 0.1s;
+    transition: background-image 0.1s;
+}
+
+.arg-mc-wrapper .input-radio-button:checked + .input-label-button {
+	color: #fff;
+	background-color: #0073aa;
+}
+
+.wp-core-ui .arg-mc-wrapper .button {
+	border: medium none;
+    border-radius: 0;
+    height: 36px;
+    line-height: 1;
+    margin-right: 0;
+    min-width: 150px;
+    padding: 8px 20px;
+    text-shadow: none;
+	background: #fff;
+	box-shadow: none;
+}
+
+.wp-core-ui .arg-mc-wrapper .button-primary {
+    background: #0085ba
+}
+
+

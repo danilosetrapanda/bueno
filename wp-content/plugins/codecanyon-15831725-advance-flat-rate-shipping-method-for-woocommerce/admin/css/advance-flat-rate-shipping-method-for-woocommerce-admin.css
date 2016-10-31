@@ -1,0 +1,28 @@
+#woocommerce-product-data .per_product_base_shipping_rules{padding:0 9px 9px;display:none}#woocommerce-product-data .per_product_base_shipping_rules p.form-field{margin:0 -9px;padding-left:0}#woocommerce-product-data .per_product_base_shipping_rules td{padding:0;width:auto!important;border-right:1px solid #DFDFDF;border-bottom:1px solid #DFDFDF;border-top:0;background:#fff}#woocommerce-product-data .per_product_base_shipping_rules td input{width:100%;min-width:0!important;padding:4px 7px;margin:0;border:0;background:transparent none}#woocommerce-product-data .per_product_base_shipping_rules td:last-child{border-right:0}#woocommerce-product-data .per_product_base_shipping_rules tr.current td{background:#fefbcc}#woocommerce-product-data .per_product_base_shipping_rules .cost,#woocommerce-product-data .per_product_base_shipping_rules .cost input,#woocommerce-product-data .per_product_base_shipping_rules .item_cost,#woocommerce-product-data .per_product_base_shipping_rules .item_cost input{text-align:right}#woocommerce-product-data .per_product_base_shipping_rules .sort{width:16px!important;cursor:move;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAHUlEQVQYV2O8f//+fwY8gJGgAny6QXKETRgEVgAAXxAVsa5Xr3QAAAAASUVORK5CYII=) no-repeat center}#woocommerce-product-data a.export,#woocommerce-product-data a.import{float:right;margin-left:4px}#woocommerce-product-data .woocommerce_variable_attributes .per_product_base_shipping_rules{padding:0 0 9px}#woocommerce-product-data .woocommerce_variable_attributes .per_product_base_shipping_rules p.form-field{padding:0 0 9px!important;margin:0!important}#woocommerce-product-data .woocommerce_variable_attributes .per_product_base_shipping_rules table{padding:0!important;margin:12px 0 0}#woocommerce-product-data .woocommerce_variable_attributes .per_product_base_shipping_rules table td{width:auto}#woocommerce-product-data .woocommerce_variable_attributes .per_product_base_shipping_rules table:after,#woocommerce-product-data .woocommerce_variable_attributes .per_product_base_shipping_rules table:before{content:"";display:none}#woocommerce-product-data .woocommerce_variable_attributes .per_product_base_shipping_rules label{padding:0 0 9px!important;display:block}#woocommerce-product-data .woocommerce_variable_attributes .per_product_base_shipping_rules input[type=checkbox]{vertical-align:middle;margin-right:4px}
+.wc_extra_shipping_method p.submit {display: none;}.wc_extra_shipping_method #extra-shipping-methods-details p#extra-flat-rate-custom-save-button {display: block;}
+.wc_extra_shipping_method #extra_shipping_method_settings textarea {width: 350px;}
+ p.welcome-page-functionality { font-size: 16px; font-weight: bold;}
+.about-wrap .return-to-dashboard {margin: 30px 0 0 -5px;font-size: 14px;font-weight: 700;}
+.extra-flate-rate-shipping-required { margin-left: 36px;}
+p.welocme-page-content {font-size: 14px;font-weight: bold;}
+.main-functionality-content {margin: 0 0 0 16px;}
+.plug-containter {width: 100%;display: inline-block;margin-left: 20px;}
+.plug-containter .contain-section {width: 25%;display: inline-block;margin-top: 30px;}
+.plug-containter .contain-section .contain-img {width: 30%;display: inline-block;}
+.plug-containter .contain-section .contain-title {width: 50%;display: inline-block;vertical-align: middle;margin-left: 10px;}
+.plug-containter .contain-section .contain-title a {text-decoration: none;line-height: 20px;font-weight: bold;}
+p.Extended-version-flate-rate-content {margin: 0 0 0 18px;}
+p.extra-flate-rate-advance {margin: 0 0 0 15px;}
+.js div#preloader { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background-color:transparent !important; background: url("/wp-content/plugins/advance-flat-rate-shipping-method-for-woocommerce/admin/images/loader.gif") 50% 50% / 59px 38px no-repeat rgb(255, 255, 255)};
+.js div#preloader-save-event { position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background-color:transparent !important; background: url("/wp-content/plugins/advance-flat-rate-shipping-method-for-woocommerce/admin/images/loader.gif") 50% 50% / 59px 38px no-repeat rgb(255, 255, 255)};
+/*.woo-flate-rate-welcome-title {margin: .2em 200px 0 0;padding: 0;color: #32373c;line-height: 1.2em;font-size: 2.1em !important;font-weight: 400;}
+*/.woo-flate-rate-welcome-title {font-size: 2.5em;color: #32373c;line-height: 1.2em;}
+table#extra_shipping_method_listing thead tr th {text-align: center;}
+table#extra_shipping_method_listing tbody tr td {text-align: center;}
+.set-flat-rate-fieldset {border: 1px solid #ccc;padding: 20px; margin-bottom: 30px;}
+.set-flat-rate-fieldset > legend {font-size: 15px;padding: 0 20px;}
+.custom-fieldset-flat-one.set-flat-rate-fieldset > legend, .custom-fieldset-flat-two.set-flat-rate-fieldset > legend, .custom-fieldset-flat-three.set-flat-rate-fieldset > legend {font-weight: bold;}
+table#extra_shipping_method_listing thead tr th.name {padding-left: 20px !important;text-align: left;}
+table#extra_shipping_method_listing tbody tr td.name {padding-left: 20px !important;text-align: left;}
+#extra-shipping-methods-details .set-flat-rate-fieldset table.form-table tbody tr th {width: 22% !important;}
+#extra-shipping-methods-details table.form-table tbody tr th label .requiredfields {color: red;}

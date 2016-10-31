@@ -1,0 +1,1349 @@
+12-21-2015 @ 20:10:34 - Getting the order installments...
+12-21-2015 @ 20:10:35 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 7800
+                    [installment_amount] => 7800
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 7800
+                    [installment_amount] => 3900
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 7800
+                    [installment_amount] => 2600
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 7800
+                    [installment_amount] => 1950
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 7800
+                    [installment_amount] => 1560
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 7800
+                    [installment_amount] => 1300
+                )
+
+        )
+
+)
+
+12-21-2015 @ 20:14:07 - Doing a transaction for order 413...
+12-21-2015 @ 20:14:08 - Transaction completed successfully! The transaction response is: Array
+(
+    [object] => transaction
+    [status] => processing
+    [refuse_reason] => 
+    [status_reason] => acquirer
+    [acquirer_response_code] => 
+    [authorization_code] => 
+    [soft_descriptor] => 
+    [tid] => 
+    [nsu] => 
+    [date_created] => 2015-12-21T20:14:08.000Z
+    [date_updated] => 2015-12-21T20:14:08.000Z
+    [amount] => 7800
+    [installments] => 2
+    [id] => 342853
+    [cost] => 0
+    [card_holder_name] => daniel trenche
+    [card_last_digits] => 0139
+    [card_first_digits] => 401684
+    [card_brand] => visa
+    [postback_url] => http://loja.buenowines.com.br/wc-api/WC_Pagarme_Gateway/
+    [payment_method] => credit_card
+    [capture_method] => ecommerce
+    [antifraud_score] => 
+    [boleto_url] => 
+    [boleto_barcode] => 
+    [boleto_expiration_date] => 
+    [referer] => api_key
+    [ip] => 189.33.46.35
+    [subscription_id] => 
+    [phone] => Array
+        (
+            [object] => phone
+            [ddi] => 55
+            [ddd] => 11
+            [number] => 55610427
+            [id] => 19218
+        )
+
+    [address] => Array
+        (
+            [object] => address
+            [street] => rua alvaro rorigues, 364
+            [complementary] => casa 1
+            [street_number] => 364
+            [neighborhood] => Brooklin
+            [city] => São Paulo
+            [state] => SP
+            [zipcode] => 04582000
+            [country] => Brasil
+            [id] => 19713
+        )
+
+    [customer] => Array
+        (
+            [object] => customer
+            [document_number] => 26002170880
+            [document_type] => cpf
+            [name] => daniel trash
+            [email] => daniel@isso.ai
+            [born_at] => 
+            [gender] => 
+            [date_created] => 2015-12-21T20:14:08.000Z
+            [id] => 34326
+        )
+
+    [card] => Array
+        (
+            [object] => card
+            [id] => card_ciigehzdg00ccl86drj2yqump
+            [date_created] => 2015-12-21T20:14:08.000Z
+            [date_updated] => 2015-12-21T20:14:08.000Z
+            [brand] => visa
+            [holder_name] => daniel trenche
+            [first_digits] => 401684
+            [last_digits] => 0139
+            [country] => BR
+            [fingerprint] => y3fawt1+bA2i
+            [valid] => 
+        )
+
+    [metadata] => Array
+        (
+        )
+
+    [antifraud_metadata] => Array
+        (
+        )
+
+)
+
+12-21-2015 @ 20:14:08 - Payment status for order 413 is now: processing
+12-21-2015 @ 20:14:11 - Payment status for order 413 is now: paid
+12-21-2015 @ 20:18:48 - Getting the order installments...
+12-21-2015 @ 20:18:48 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 7800
+                    [installment_amount] => 7800
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 7800
+                    [installment_amount] => 3900
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 7800
+                    [installment_amount] => 2600
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 7800
+                    [installment_amount] => 1950
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 7800
+                    [installment_amount] => 1560
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 7800
+                    [installment_amount] => 1300
+                )
+
+        )
+
+)
+
+12-21-2015 @ 20:35:27 - Getting the order installments...
+12-21-2015 @ 20:35:27 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 13700
+                    [installment_amount] => 13700
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 13700
+                    [installment_amount] => 6850
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 13700
+                    [installment_amount] => 4567
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 13700
+                    [installment_amount] => 3425
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 13700
+                    [installment_amount] => 2740
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 13700
+                    [installment_amount] => 2283
+                )
+
+        )
+
+)
+
+12-21-2015 @ 20:39:55 - Doing a transaction for order 414...
+12-21-2015 @ 20:39:56 - Transaction completed successfully! The transaction response is: Array
+(
+    [object] => transaction
+    [status] => waiting_payment
+    [refuse_reason] => 
+    [status_reason] => acquirer
+    [acquirer_response_code] => 
+    [acquirer_name] => development
+    [authorization_code] => 
+    [soft_descriptor] => 
+    [tid] => 
+    [nsu] => 
+    [date_created] => 2015-12-21T20:39:55.000Z
+    [date_updated] => 2015-12-21T20:39:56.000Z
+    [amount] => 13700
+    [installments] => 1
+    [id] => 342871
+    [cost] => 0
+    [card_holder_name] => 
+    [card_last_digits] => 
+    [card_first_digits] => 
+    [card_brand] => 
+    [postback_url] => http://loja.buenowines.com.br/wc-api/WC_Pagarme_Gateway/
+    [payment_method] => boleto
+    [capture_method] => ecommerce
+    [antifraud_score] => 
+    [boleto_url] => https://pagar.me
+    [boleto_barcode] => 1234 5678
+    [boleto_expiration_date] => 2015-12-28T02:00:00.935Z
+    [referer] => api_key
+    [ip] => 205.186.176.14
+    [subscription_id] => 
+    [phone] => Array
+        (
+            [object] => phone
+            [ddi] => 55
+            [ddd] => 11
+            [number] => 55610427
+            [id] => 19218
+        )
+
+    [address] => Array
+        (
+            [object] => address
+            [street] => rua alvaro rorigues, 364
+            [complementary] => casa 1
+            [street_number] => 364
+            [neighborhood] => Brooklin
+            [city] => São Paulo
+            [state] => SP
+            [zipcode] => 04582000
+            [country] => Brasil
+            [id] => 19713
+        )
+
+    [customer] => Array
+        (
+            [object] => customer
+            [document_number] => 26002170880
+            [document_type] => cpf
+            [name] => daniel trash
+            [email] => daniel@isso.ai
+            [born_at] => 
+            [gender] => 
+            [date_created] => 2015-12-21T20:14:08.000Z
+            [id] => 34326
+        )
+
+    [card] => 
+    [metadata] => Array
+        (
+        )
+
+    [antifraud_metadata] => Array
+        (
+        )
+
+)
+
+12-21-2015 @ 20:39:56 - Payment status for order 414 is now: waiting_payment
+12-21-2015 @ 20:42:15 - Getting the order installments...
+12-21-2015 @ 20:42:16 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 20900
+                    [installment_amount] => 20900
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 20900
+                    [installment_amount] => 10450
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 20900
+                    [installment_amount] => 6967
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 20900
+                    [installment_amount] => 5225
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 20900
+                    [installment_amount] => 4180
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 20900
+                    [installment_amount] => 3483
+                )
+
+        )
+
+)
+
+12-21-2015 @ 20:54:44 - Getting the order installments...
+12-21-2015 @ 20:54:44 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 20900
+                    [installment_amount] => 20900
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 20900
+                    [installment_amount] => 10450
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 20900
+                    [installment_amount] => 6967
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 20900
+                    [installment_amount] => 5225
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 20900
+                    [installment_amount] => 4180
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 20900
+                    [installment_amount] => 3483
+                )
+
+        )
+
+)
+
+12-21-2015 @ 21:38:16 - Getting the order installments...
+12-21-2015 @ 21:38:17 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 33160
+                    [installment_amount] => 33160
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 33160
+                    [installment_amount] => 16580
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 33160
+                    [installment_amount] => 11053
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 33160
+                    [installment_amount] => 8290
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 33160
+                    [installment_amount] => 6632
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 33160
+                    [installment_amount] => 5527
+                )
+
+        )
+
+)
+
+01-06-2016 @ 20:01:16 - Getting the order installments...
+01-06-2016 @ 20:01:17 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 11800
+                    [installment_amount] => 11800
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 11800
+                    [installment_amount] => 5900
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 11800
+                    [installment_amount] => 3933
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 11800
+                    [installment_amount] => 2950
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 11800
+                    [installment_amount] => 2360
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 11800
+                    [installment_amount] => 1967
+                )
+
+        )
+
+)
+
+02-02-2016 @ 14:56:01 - Getting the order installments...
+02-02-2016 @ 14:56:01 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 5900
+                    [installment_amount] => 5900
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 5900
+                    [installment_amount] => 2950
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 5900
+                    [installment_amount] => 1967
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 5900
+                    [installment_amount] => 1475
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 5900
+                    [installment_amount] => 1180
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 5900
+                    [installment_amount] => 983
+                )
+
+        )
+
+)
+
+02-24-2016 @ 20:05:01 - Getting the order installments...
+02-24-2016 @ 20:05:01 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 5900
+                    [installment_amount] => 5900
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 5900
+                    [installment_amount] => 2950
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 5900
+                    [installment_amount] => 1967
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 5900
+                    [installment_amount] => 1475
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 5900
+                    [installment_amount] => 1180
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 5900
+                    [installment_amount] => 983
+                )
+
+        )
+
+)
+
+02-26-2016 @ 11:57:46 - Getting the order installments...
+02-26-2016 @ 11:57:47 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 76000
+                    [installment_amount] => 76000
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 76000
+                    [installment_amount] => 38000
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 76000
+                    [installment_amount] => 25333
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 76000
+                    [installment_amount] => 19000
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 76000
+                    [installment_amount] => 15200
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 76000
+                    [installment_amount] => 12667
+                )
+
+        )
+
+)
+
+05-16-2016 @ 14:27:50 - Getting the order installments...
+05-16-2016 @ 14:27:51 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 5900
+                    [installment_amount] => 5900
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 5900
+                    [installment_amount] => 2950
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 5900
+                    [installment_amount] => 1967
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 5900
+                    [installment_amount] => 1475
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 5900
+                    [installment_amount] => 1180
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 5900
+                    [installment_amount] => 983
+                )
+
+        )
+
+)
+
+05-16-2016 @ 14:55:00 - Getting the order installments...
+05-16-2016 @ 14:55:01 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 11800
+                    [installment_amount] => 11800
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 11800
+                    [installment_amount] => 5900
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 11800
+                    [installment_amount] => 3933
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 11800
+                    [installment_amount] => 2950
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 11800
+                    [installment_amount] => 2360
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 11800
+                    [installment_amount] => 1967
+                )
+
+        )
+
+)
+
+05-16-2016 @ 15:01:39 - Getting the order installments...
+05-16-2016 @ 15:01:40 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 11800
+                    [installment_amount] => 11800
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 11800
+                    [installment_amount] => 5900
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 11800
+                    [installment_amount] => 3933
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 11800
+                    [installment_amount] => 2950
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 11800
+                    [installment_amount] => 2360
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 11800
+                    [installment_amount] => 1967
+                )
+
+        )
+
+)
+
+05-16-2016 @ 15:01:43 - Getting the order installments...
+05-16-2016 @ 15:01:43 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 13700
+                    [installment_amount] => 13700
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 13700
+                    [installment_amount] => 6850
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 13700
+                    [installment_amount] => 4567
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 13700
+                    [installment_amount] => 3425
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 13700
+                    [installment_amount] => 2740
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 13700
+                    [installment_amount] => 2283
+                )
+
+        )
+
+)
+
+05-16-2016 @ 15:44:56 - Getting the order installments...
+05-16-2016 @ 15:44:57 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 5900
+                    [installment_amount] => 5900
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 5900
+                    [installment_amount] => 2950
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 5900
+                    [installment_amount] => 1967
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 5900
+                    [installment_amount] => 1475
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 5900
+                    [installment_amount] => 1180
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 5900
+                    [installment_amount] => 983
+                )
+
+        )
+
+)
+
+05-16-2016 @ 18:05:21 - Getting the order installments...
+05-16-2016 @ 18:05:21 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 6500
+                    [installment_amount] => 6500
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 6500
+                    [installment_amount] => 3250
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 6500
+                    [installment_amount] => 2167
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 6500
+                    [installment_amount] => 1625
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 6500
+                    [installment_amount] => 1300
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 6500
+                    [installment_amount] => 1083
+                )
+
+        )
+
+)
+
+05-16-2016 @ 18:57:14 - Getting the order installments...
+05-16-2016 @ 18:57:15 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 59980
+                    [installment_amount] => 59980
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 59980
+                    [installment_amount] => 29990
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 59980
+                    [installment_amount] => 19993
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 59980
+                    [installment_amount] => 14995
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 59980
+                    [installment_amount] => 11996
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 59980
+                    [installment_amount] => 9997
+                )
+
+        )
+
+)
+
+05-16-2016 @ 18:57:39 - Getting the order installments...
+05-16-2016 @ 18:57:39 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 59990
+                    [installment_amount] => 59990
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 59990
+                    [installment_amount] => 29995
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 59990
+                    [installment_amount] => 19997
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 59990
+                    [installment_amount] => 14998
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 59990
+                    [installment_amount] => 11998
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 59990
+                    [installment_amount] => 9998
+                )
+
+        )
+
+)
+
+05-16-2016 @ 18:57:43 - Getting the order installments...
+05-16-2016 @ 18:57:44 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 60910
+                    [installment_amount] => 60910
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 60910
+                    [installment_amount] => 30455
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 60910
+                    [installment_amount] => 20303
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 60910
+                    [installment_amount] => 15228
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 60910
+                    [installment_amount] => 12182
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 60910
+                    [installment_amount] => 10152
+                )
+
+        )
+
+)
+
+05-16-2016 @ 19:01:56 - Getting the order installments...
+05-16-2016 @ 19:01:56 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 66480
+                    [installment_amount] => 66480
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 66480
+                    [installment_amount] => 33240
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 66480
+                    [installment_amount] => 22160
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 66480
+                    [installment_amount] => 16620
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 66480
+                    [installment_amount] => 13296
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 66480
+                    [installment_amount] => 11080
+                )
+
+        )
+
+)
+
+05-16-2016 @ 19:08:45 - Getting the order installments...
+05-16-2016 @ 19:08:46 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 7980
+                    [installment_amount] => 7980
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 7980
+                    [installment_amount] => 3990
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 7980
+                    [installment_amount] => 2660
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 7980
+                    [installment_amount] => 1995
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 7980
+                    [installment_amount] => 1596
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 7980
+                    [installment_amount] => 1330
+                )
+
+        )
+
+)
+
+05-16-2016 @ 20:50:45 - Getting the order installments...
+05-16-2016 @ 20:50:46 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 14480
+                    [installment_amount] => 14480
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 14480
+                    [installment_amount] => 7240
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 14480
+                    [installment_amount] => 4827
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 14480
+                    [installment_amount] => 3620
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 14480
+                    [installment_amount] => 2896
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 14480
+                    [installment_amount] => 2413
+                )
+
+        )
+
+)
+
+05-16-2016 @ 22:19:06 - Getting the order installments...
+05-16-2016 @ 22:19:07 - Installments generated successfully: Array
+(
+    [installments] => Array
+        (
+            [1] => Array
+                (
+                    [installment] => 1
+                    [amount] => 14480
+                    [installment_amount] => 14480
+                )
+
+            [2] => Array
+                (
+                    [installment] => 2
+                    [amount] => 14480
+                    [installment_amount] => 7240
+                )
+
+            [3] => Array
+                (
+                    [installment] => 3
+                    [amount] => 14480
+                    [installment_amount] => 4827
+                )
+
+            [4] => Array
+                (
+                    [installment] => 4
+                    [amount] => 14480
+                    [installment_amount] => 3620
+                )
+
+            [5] => Array
+                (
+                    [installment] => 5
+                    [amount] => 14480
+                    [installment_amount] => 2896
+                )
+
+            [6] => Array
+                (
+                    [installment] => 6
+                    [amount] => 14480
+                    [installment_amount] => 2413
+                )
+
+        )
+
+)
+

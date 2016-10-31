@@ -1,0 +1,671 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-05-30 23:42-0700\n"
+"PO-Revision-Date: 2016-05-31 00:04-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:175
+#, php-format
+msgid "Welcome to Advance Flat Rate Shipping Method For WooCommerce  %s"
+msgstr ""
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:179
+#, php-format
+msgid ""
+"%s <p class=\"afsm-div-congo\">Congratulations! You are about to use full "
+"Customize Flat Rate Shipping as per your needs for your WooCommerce store.</"
+"p>"
+msgstr ""
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:206
+msgid "Go to Advance Flat Rate Shipping Method Settings"
+msgstr "Aller à Advance Settings Flat Rate Mode de livraison"
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:226
+msgid "Customize Flat Rate Shipping as per your needs"
+msgstr "Personnaliser Flat Rate Frais de port selon vos besoins"
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:227
+msgid ""
+"Advance Flat Rate Shipping Method for WooCommerce plugin opens the "
+"possibility to create customize shipping options. With this plugin you can "
+"create as many flat rate shipping methods as you need and can set the custom "
+"rules as per your need."
+msgstr ""
+"Advance Flat Rate Méthode d'expédition pour WooCommerce plug-in ouvre la "
+"possibilité de créer de personnaliser les options d'expédition. Avec ce "
+"plugin, vous pouvez créer autant de méthodes d'expédition forfaitaire que "
+"vous avez besoin et pouvez définir les règles personnalisées selon vos "
+"besoins ."
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:236
+msgid "Shipping Customization Options"
+msgstr "Options de personnalisation Livraison"
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:239
+msgid ""
+"Add flat rate shipping as per country, product, category, SKU, coupons, "
+"order amount, weight and much more."
+msgstr ""
+"Ajouter l'expédition de taux forfaitaire par pays , produit, catégorie , "
+"SKU , coupons , montant de la commande , le poids et beaucoup plus ."
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:245
+msgid "Localization"
+msgstr "Localisation"
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:248
+msgid ""
+"The plugin  will translate based on your WordPress language setting by "
+"default. It supports English and Spanish. If you would like to add more  "
+"then please generate .mo file and load in the plugin."
+msgstr ""
+"Le plugin se traduira en fonction de votre WordPress paramètre de langue par "
+"défaut. Il prend en charge l'anglais et l'espagnol. Si vous souhaitez "
+"ajouter plus de générer des fichiers .mo s'il vous plaît et la charge dans "
+"le plugin ."
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:254
+msgid "Forcefully Apply Shipping"
+msgstr "Appliquer avec force Expédition"
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:257
+msgid ""
+"Use this feature to apply shipping rate forcefully for a specific product/"
+"category of your choice. Choose the category from the interface and that's "
+"it! The plugin automatically adds the specified rate whenever a customer "
+"selects purchases that product from that category. "
+msgstr ""
+"Utilisez cette fonction pour appliquer un taux d'expédition de force pour un "
+"produit / catégorie spécifique de votre choix . Choisissez la catégorie de "
+"l'interface et voilà! Le plugin ajoute automatiquement le taux spécifié "
+"chaque fois qu'un client sélectionne les achats qui produit de cette "
+"catégorie ."
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:359
+msgid "Shipping Zones"
+msgstr "Zones d'expédition"
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:360
+msgid "Shipping Options"
+msgstr "Les options d'expédition"
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:361
+msgid "Shipping Classes"
+msgstr "Classes d'expédition"
+
+#: admin/class-advance-flat-rate-shipping-method-for-woocommerce-admin.php:362
+msgid "Advance Flat Rate Shipping"
+msgstr "Advance Flat Rate Livraison"
+
+#: admin/partials/class-wc-extra-shipping-method.php:36
+#: admin/partials/class-wc-extra-shipping-method.php:1261
+msgid "Advance Flat Rate Shipping Method"
+msgstr "Advance Flat Rate Méthode d'expédition"
+
+#: admin/partials/class-wc-extra-shipping-method.php:37
+msgid "Extra Flate Rate Shipping lets you charge a fixed rate for shipping."
+msgstr ""
+"Supplémentaire Flate Taux d'expédition vous permet de charger un taux fixe "
+"pour l'expédition."
+
+#: admin/partials/class-wc-extra-shipping-method.php:91
+msgid ""
+"This amount will be added to the sub total of the order when customer "
+"selects this shipping method. You can enter direct amount or make it dynamic "
+"using parameters. Below are the parameters you can use: [qty] = number of "
+"items, [cost] = cost of items,<br> [fee percent=\"10\" min_fee=\"20\"] = "
+"Percentage based fee.Below are some of the examples:\"10.00\"  - To charge "
+"flat 10.00 shipping charge\"10.00 * [qty]\" - To charge 10.000 per quantity "
+"in the cart. It will be 50.00 if the cart has 5 qty. \"[fee percent=\"10\" "
+"min_fee=\"20\"]\" - This means charge 10 percent o sub total of order, "
+"minimum 20 charge will be applicable. "
+msgstr ""
+"Ce montant sera ajouté au total sous de l'ordre lorsque le client choisit "
+"cette méthode d'expédition . Vous pouvez entrer une quantité directe ou "
+"rendre dynamiques en utilisant les paramètres . Voici les paramètres que "
+"vous pouvez utiliser : [ qty ] = nombre d'éléments , [coût] = coût des "
+"articles , <br> [ pour cent des frais = min_fee \"10\" = \"20\" ] = "
+"Pourcentage basé fee.Below sont parmi les exemples : \" 10.00 \" - Pour "
+"charger plat frais 10,00 expédition \" 10.00 * [ qté ] \" - Pour charger "
+"10.000 par quantité dans le panier. Il sera 50.00 si le panier a 5 qté . "
+"\" [ Taxe pour cent =\" \" min_fee =\" 10 20 \"]\" - Cela signifie charge de "
+"10 pour cent o sous-total de l'ordre , minimum 20 charge sera applicable ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:96
+msgid "Enable/Disable"
+msgstr "Activer / désactiver"
+
+#: admin/partials/class-wc-extra-shipping-method.php:98
+msgid ""
+"Enable this shipping method  (This method will be visible to customers only "
+"if it is enabled.)"
+msgstr ""
+"Activez cette méthode d'expédition ( Cette méthode sera visible pour les "
+"clients que si elle est activée . )"
+
+#: admin/partials/class-wc-extra-shipping-method.php:102
+msgid "Enter Shipping Method Name "
+msgstr "Entrez Nom Méthode d'expédition"
+
+#: admin/partials/class-wc-extra-shipping-method.php:104
+msgid ""
+"This name will be visible to the customer at the time of checkout. This "
+"should convey the purpose of the charges you are applying to the order. For "
+"example \"Ground Shipping\",  \"Express Shipping Flat Rate\", \"Christmas "
+"Next Day Shipping\" etc"
+msgstr ""
+"Ce nom sera visible au client au moment de l' achat. Cela devrait donner l' "
+"effet des charges que vous postulez à l'ordre . Par exemple \"Ground Shipping"
+"\" , \" Transport Express Flat Rate \", \" Christmas Day Next Shipping\" etc"
+
+#: admin/partials/class-wc-extra-shipping-method.php:105
+#, php-format
+msgid "extra_shipping: %s"
+msgstr ""
+
+#: admin/partials/class-wc-extra-shipping-method.php:111
+msgid "Enter Short Description about this Shipping method "
+msgstr "Entrez Description courte sur cette méthode de livraison"
+
+#: admin/partials/class-wc-extra-shipping-method.php:113
+msgid ""
+"Enter few words about this shipping method. This will help your customers to "
+"understand the shipping charges in more detailed way. "
+msgstr ""
+"Saisissez quelques mots au sujet de cette méthode d'expédition . Cela aidera "
+"vos clients à comprendre les frais d'expédition de manière plus détaillée ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:115
+msgid "Enter method description"
+msgstr "Entrez description de la méthode"
+
+#: admin/partials/class-wc-extra-shipping-method.php:118
+msgid "Enter Amount to Charge "
+msgstr "Entrez le montant à charger"
+
+#: admin/partials/class-wc-extra-shipping-method.php:125
+msgid "Select Countries Allowed"
+msgstr "Sélectionnez Pays autorisés"
+
+#: admin/partials/class-wc-extra-shipping-method.php:130
+msgid "All allowed countries"
+msgstr "Tous les pays autorisés"
+
+#: admin/partials/class-wc-extra-shipping-method.php:131
+msgid "Specific Countries"
+msgstr "pays spécifiques"
+
+#: admin/partials/class-wc-extra-shipping-method.php:135
+msgid "Select Specific Countries"
+msgstr "Sélectionnez les pays spécifiques"
+
+#: admin/partials/class-wc-extra-shipping-method.php:142
+msgid "Select some countries"
+msgstr "Sélectionnez certains pays"
+
+#: admin/partials/class-wc-extra-shipping-method.php:146
+msgid "Select Specific Products"
+msgstr "Sélectionnez les produits spécifiques"
+
+#: admin/partials/class-wc-extra-shipping-method.php:152
+msgid ""
+"Use this feature when you want to make the shipping method visible only for "
+"specific products. For example, if you select \"Basketball\" as product, the "
+"current shipping method will only be visible if the customer has added "
+"\"Basketball\" product in his current cart."
+msgstr ""
+"Utilisez cette fonction lorsque vous souhaitez rendre la méthode visible que "
+"pour les produits spécifiques d'expédition. Par exemple , si vous "
+"sélectionnez \"Basketball \" en tant que produit , la méthode actuelle "
+"d'expédition ne sera visible que si le client a ajouté \"Basketball \" "
+"produit dans son panier en cours."
+
+#: admin/partials/class-wc-extra-shipping-method.php:154
+msgid "Select some products"
+msgstr "Sélectionnez certains produits"
+
+#: admin/partials/class-wc-extra-shipping-method.php:158
+msgid "Select Specific Category"
+msgstr "Sélectionnez Catégorie spécifique"
+
+#: admin/partials/class-wc-extra-shipping-method.php:164
+msgid ""
+"Using this feature you can restrict your shipping method to be vislble only "
+"for products of specific category.  For example, you can create a new method "
+"like \"Expensive Shipping $50\".  This method should be visible only when "
+"the cart has any product from \"Glass Products\" category."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez restreindre votre méthode "
+"d'expédition pour être vislble que pour les produits de la catégorie "
+"spécifique. Par exemple, vous pouvez créer une nouvelle méthode comme \"Cher "
+"expédition 50 $ \" . Cette méthode devrait être visible que lorsque le "
+"panier a tout produit de la catégorie \" Produits de verre \" ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:166
+msgid "Select some categories"
+msgstr "Sélectionnez certaines catégories"
+
+#: admin/partials/class-wc-extra-shipping-method.php:170
+msgid "Select Specific Tag"
+msgstr "Sélectionnez Balise spécifique"
+
+#: admin/partials/class-wc-extra-shipping-method.php:176
+msgid ""
+"Using this feature you can restrict your shipping method to be vislble only "
+"for products from specific tag.  For example, you can create a new method "
+"like \"Special shipping $100\".  This method should be visible only when the "
+"cart has any product having \"fragile\" tag."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez restreindre votre méthode "
+"d'expédition pour être vislble que pour les produits de balise spécifique . "
+"Par exemple , vous pouvez créer une nouvelle méthode comme \" expédition "
+"spéciale 100 $» . Cette méthode devrait être visible que lorsque le panier a "
+"tout produit ayant d'étiquette \"fragile\" ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:178
+msgid "Select some tags"
+msgstr "Sélectionnez quelques balises"
+
+#: admin/partials/class-wc-extra-shipping-method.php:182
+msgid "Select Specific SKU"
+msgstr "Sélectionnez SKU spécifique"
+
+#: admin/partials/class-wc-extra-shipping-method.php:188
+msgid ""
+"Using this feature you can restrict your shipping method to be vislble only "
+"for products of specific SKU.  For example, you can create a new method like "
+"\"Christmas Urgent $50\".  This method should be visible only when the cart "
+"has a product of \"CHRISTMAS007\" SKU."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez restreindre votre méthode "
+"d'expédition pour être vislble que pour les produits de SKU spécifique. Par "
+"exemple , vous pouvez créer une nouvelle méthode comme \" Christmas Urgent $ "
+"50\" . Cette méthode devrait être visible que lorsque le panier a un produit "
+"de \" CHRISTMAS007 \" SKU ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:190
+msgid "Select some sku"
+msgstr "Sélectionnez certains sku"
+
+#: admin/partials/class-wc-extra-shipping-method.php:194
+msgid "Select Specific User"
+msgstr " Sélectionnez l'utilisateur spécifique"
+
+#: admin/partials/class-wc-extra-shipping-method.php:200
+msgid ""
+"When you want to make a shipping method visible only for selected user you "
+"can use this feature. For example, let us say you want to create a shipping "
+"method for your favorite buyer  called \"Special Shipping for JamesSmith - "
+"$10\" for all his bulk orders. In this case, you have to chose james "
+"username in this textbox.  Then this shipping method will only be visible to "
+"JamesSmith."
+msgstr ""
+"Lorsque vous souhaitez effectuer une méthode d'expédition uniquement visible "
+"pour l'utilisateur sélectionné, vous pouvez utiliser cette fonction . Par "
+"exemple , disons que vous voulez créer une méthode d'expédition pour votre "
+"acheteur préféré appelé \" Expédition spécial pour JamesSmith - $ 10\" pour "
+"toutes ses commandes en vrac . Dans ce cas , vous devez choisir le nom "
+"d'utilisateur james dans ce champ . Ensuite, cette méthode d'expédition ne "
+"sera visible à JamesSmith ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:202
+msgid "Select some user"
+msgstr "Sélectionnez certains utilisateurs"
+
+#: admin/partials/class-wc-extra-shipping-method.php:206
+msgid "Select Specific User Role"
+msgstr "Sélectionnez le rôle spécifique de l'utilisateur"
+
+#: admin/partials/class-wc-extra-shipping-method.php:212
+msgid ""
+"When you want to make a shipping method visible only for users from a "
+"specific group/role you can use this feature. For example, let us say you "
+"want to create a shipping method for all your wholesale customers called "
+"\"Wholesale Shipping - $100\" for all bulk orders.   Then you can select the "
+"\"wholesale\" in this textbox."
+msgstr ""
+"Lorsque vous souhaitez effectuer une méthode d'expédition visible uniquement "
+"pour les utilisateurs d'un groupe / rôle spécifique, vous pouvez utiliser "
+"cette fonction . Par exemple , disons que vous voulez créer une méthode "
+"d'expédition pour tous vos clients grossistes appelés \"Shipping gros - 100 "
+"$» pour toutes les commandes en vrac . Ensuite, vous pouvez sélectionner le "
+"\" gros \" dans ce champ ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:214
+msgid "Select some user role"
+msgstr "Sélectionnez un rôle utilisateur"
+
+#: admin/partials/class-wc-extra-shipping-method.php:218
+msgid "Select Coupon"
+msgstr "Sélectionnez Coupon"
+
+#: admin/partials/class-wc-extra-shipping-method.php:224
+msgid ""
+"Using this feature you can restrict the shipping method only to be visible "
+"if the specified coupon is used on the current order. For example, let us "
+"say you want to offer a discounted shipping rate for your email campaign. "
+"You can create this method like \"CyberMonday 2016 Shipping $5\". and this "
+"will be only visible if customer uses the coupon you shared on your email "
+"campaign \"CyberMonday2016\".  You can achieve this using this feature."
+msgstr ""
+"En utilisant cette fonctionnalité, vous pouvez limiter la méthode "
+"d'expédition seulement pour être visible si le coupon spécifié est utilisé "
+"sur la commande en cours. Par exemple , disons que vous voulez offrir un "
+"taux d'expédition réduit pour votre campagne d'email . Vous pouvez créer "
+"cette méthode comme \" CyberMonday 2016 Expédition $ 5\" . et ce sera "
+"visible uniquement si le client utilise le coupon que vous avez partagé sur "
+"votre campagne e-mail \" CyberMonday2016 \" . Vous pouvez y parvenir en "
+"utilisant cette fonction ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:226
+msgid "Select some Coupon"
+msgstr "Sélectionnez du coupon"
+
+#: admin/partials/class-wc-extra-shipping-method.php:231
+msgid "Select Class"
+msgstr "Sélectionnez la classe"
+
+#: admin/partials/class-wc-extra-shipping-method.php:235
+msgid ""
+"Select class if the product in cart available with selected class name then "
+"forcefully this shipping will be applicable."
+msgstr ""
+"Sélectionner la classe si le produit dans le panier disponible avec le nom "
+"de classe sélectionnée alors avec force cette expédition sera applicable ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:239
+msgid "Order amount specific Shipping method - If less than"
+msgstr ""
+"Montant de la commande de la méthode de livraison spécifique - Si moins de"
+
+#: admin/partials/class-wc-extra-shipping-method.php:242
+msgid ""
+"Here you can enter maximum order amount to for which the shipping method  "
+"should be visible. For example, you can specify this like 500. In this case, "
+"the shipping method will only be visilbe to customer if the order amount is "
+"less than and equal to 500. For orders more than 500 it will not be "
+"visible.  You can use this feature, when you want to skip shipping charge "
+"when the order amount is higher than what you specified."
+msgstr ""
+"Ici vous pouvez entrer de commande maximale pour laquelle le mode de "
+"livraison doit être visible. Par exemple , vous pouvez le spécifier comme "
+"500. Dans ce cas, la méthode d'expédition ne sera visiblemes au client si le "
+"montant de la commande est inférieure et égale à 500. Pour les commandes de "
+"plus de 500 il ne sera pas visible. Vous pouvez utiliser cette fonction, "
+"lorsque vous voulez sauter frais de port lorsque le montant de la commande "
+"est supérieur à ce que vous avez spécifié ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:247
+msgid "Order amount specific Shipping method - If greater than"
+msgstr "Méthode d'expédition spécifique Montant de la commande - Si plus de"
+
+#: admin/partials/class-wc-extra-shipping-method.php:250
+msgid ""
+"Here you can enter minimum order amount after which the shipping method "
+"should be visible. For example, you can specify this like 500. In this case, "
+"the shipping method will only be visilbe to customer if the order amount is "
+"greater than and equal to 500. For orders smaller than 500 it will not be "
+"visible.  You can use this feature, when you want to skip shipping charge "
+"when the order amount is less than what you specified."
+msgstr ""
+"Ici vous pouvez entrer pour montant minimum après quoi la méthode "
+"d'expédition doit être visible. Par exemple , vous pouvez le spécifier comme "
+"500. Dans ce cas, la méthode d'expédition ne sera visiblemes au client si le "
+"montant de la commande est supérieure et égale à 500. Pour les commandes "
+"inférieures à 500 il ne sera pas visible. Vous pouvez utiliser cette "
+"fonction, lorsque vous voulez sauter frais de port lorsque le montant de la "
+"commande est inférieur à ce que vous avez spécifié ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:255
+msgid "Quantity specific Shipping method - If less than"
+msgstr "Méthode d'expédition spécifique Quantité - Si moins de"
+
+#: admin/partials/class-wc-extra-shipping-method.php:258
+msgid ""
+"Here you can enter maximum cart quantity for which the shipping method "
+"should be visible. For example, you can specify this like 5. In this case, "
+"the shipping method will only be visilbe to customer if the cart has less "
+"than and equal to 5 qauntity in it. For cart having more than 5 quantity it "
+"will not be visible.  You can use this feature, when you want to skip "
+"shipping charge when the cart quantity is higher than what you specified."
+msgstr ""
+"Ici vous pouvez entrer la quantité de panier maximale pour laquelle la "
+"méthode d'expédition doit être visible. Par exemple , vous pouvez le "
+"spécifier comme 5. Dans ce cas , la méthode d'expédition ne sera visiblemes "
+"au client si le panier a moins et égal à 5 qauntity en elle. Pour panier "
+"ayant plus de 5 quantité, il ne sera pas visible . Vous pouvez utiliser "
+"cette fonction, lorsque vous voulez sauter frais de port lorsque le panier "
+"quantité est supérieure à ce que vous avez spécifié ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:263
+msgid "Quantity specific Shipping method - If greater than"
+msgstr "Méthode d'expédition spécifique Quantité - Si plus de"
+
+#: admin/partials/class-wc-extra-shipping-method.php:266
+msgid ""
+"Here you can enter minimum cart quantity after which the shipping method "
+"should be visible. For example, you can specify this like 5. In this case, "
+"the shipping method will only be visilbe to customer if the cart quantity is "
+"greater than and equal to 5. For cart having less than 5 quantity it will "
+"not be visible.  You can use this feature, when you want to skip shipping "
+"charge when the cart quantity is less than what you specified."
+msgstr ""
+"Ici vous pouvez entrer la quantité de panier minimum après quoi la méthode "
+"d'expédition doit être visible. Par exemple , vous pouvez le spécifier comme "
+"5. Dans ce cas , la méthode d'expédition ne sera visiblemes au client si le "
+"panier quantité est supérieure et égale à 5. Pour panier ayant moins de 5 "
+"quantité, il ne sera pas visible . Vous pouvez utiliser cette fonction, "
+"lorsque vous voulez sauter frais de port lorsque le panier quantité est "
+"inférieure à ce que vous avez spécifié ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:271
+msgid "Weight specific Shipping method - If less than"
+msgstr "Méthode d'expédition spécifique de poids - Si moins de"
+
+#: admin/partials/class-wc-extra-shipping-method.php:273
+msgid ""
+"Here you can enter maximum cart/product weight for which the shipping method "
+"should be visible. For example, you can specify this like 500. In this case, "
+"the shipping method will only be visilbe to customer if the cart weight "
+"total is less than and equal to 500. For cart having greater than 500 weight "
+"it will not be visible.  You can use this feature, when you want to skip "
+"shipping charge when the cart total weight is higher than what you specified."
+msgstr ""
+"Ici vous pouvez entrer le poids maximal panier / produit pour lequel la "
+"méthode d'expédition doit être visible. Par exemple , vous pouvez le "
+"spécifier comme 500. Dans ce cas, la méthode d'expédition ne sera visiblemes "
+"au client si le total panier de poids est inférieur et égal à 500. Pour "
+"panier ayant plus de 500 poids, il ne sera pas visible . Vous pouvez "
+"utiliser cette fonction, lorsque vous voulez sauter frais de port lorsque le "
+"panier poids total est supérieur à ce que vous avez spécifié ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:278
+msgid "Weight specific Shipping method - If greater than"
+msgstr "Méthode d'expédition spécifique de poids - Si plus de"
+
+#: admin/partials/class-wc-extra-shipping-method.php:280
+msgid ""
+"Here you can enter minimum cart weiht after which the shipping method should "
+"be visible. For example, you can specify this like 500. In this case, the "
+"shipping method will only be visilbe to customer if the cart total weight is "
+"greater than and equal to 500. For cart having less than 500 weight it will "
+"not be visible.  You can use this feature, when you want to skip shipping "
+"charge when the cart total weight is less than what you specified."
+msgstr ""
+"Ici vous pouvez entrer panier minimum weiht après quoi la méthode "
+"d'expédition doit être visible. Par exemple , vous pouvez le spécifier comme "
+"500. Dans ce cas, la méthode d'expédition ne sera visiblemes au client si le "
+"panier poids total est supérieure et égale à 500. Pour panier ayant moins de "
+"500 poids, il ne sera pas visible . Vous pouvez utiliser cette fonction, "
+"lorsque vous voulez sauter frais de port lorsque le panier poids total est "
+"inférieur à ce que vous avez spécifié ."
+
+#: admin/partials/class-wc-extra-shipping-method.php:287
+msgid "Should the shipping amount be taxable?"
+msgstr "Si le montant de l'expédition sont imposables ?"
+
+#: admin/partials/class-wc-extra-shipping-method.php:291
+msgid ""
+"If Tax Status is \"Yes\" then tax rate will apply on Shipping Cost as well. "
+"You can Mangage your Tax rate by <a href=\""
+msgstr ""
+
+#: admin/partials/class-wc-extra-shipping-method.php:293
+msgid "YES"
+msgstr "OUI"
+
+#: admin/partials/class-wc-extra-shipping-method.php:294
+msgid "NO"
+msgstr "NON"
+
+#: admin/partials/class-wc-extra-shipping-method.php:305
+msgid "Shipping Class Costs"
+msgstr "Frais d'expédition de classe"
+
+#: admin/partials/class-wc-extra-shipping-method.php:307
+#, php-format
+msgid ""
+"These costs can optionally be added based on the %sproduct shipping class%s."
+msgstr ""
+
+#: admin/partials/class-wc-extra-shipping-method.php:314
+#, php-format
+msgid "\"%s\" Shipping Class Cost"
+msgstr ""
+
+#: admin/partials/class-wc-extra-shipping-method.php:316
+#: admin/partials/class-wc-extra-shipping-method.php:324
+msgid "N/A"
+msgstr ""
+
+#: admin/partials/class-wc-extra-shipping-method.php:322
+msgid "No Shipping Class Cost"
+msgstr "Aucune expédition Classe Coût"
+
+#: admin/partials/class-wc-extra-shipping-method.php:329
+msgid "Calculation Type"
+msgstr "Type de calcul"
+
+#: admin/partials/class-wc-extra-shipping-method.php:334
+msgid "Per Class: Charge shipping for each shipping class individually"
+msgstr ""
+"Par Classe: Charge expédition pour chaque catégorie de transport individuel"
+
+#: admin/partials/class-wc-extra-shipping-method.php:335
+msgid "Per Order: Charge shipping for the most expensive shipping class"
+msgstr ""
+"Par ordre : Charge expédition pour la classe d'expédition la plus chère"
+
+#: admin/partials/class-wc-extra-shipping-method.php:1251
+msgid "Add New Flat Rate Shipping Method"
+msgstr "Ajouter une méthode New Flat Rate Frais de port"
+
+#: admin/partials/class-wc-extra-shipping-method.php:1283
+msgid "Shipping Method Name"
+msgstr "Nom Méthode d'expédition"
+
+#: admin/partials/class-wc-extra-shipping-method.php:1284
+msgid "Amount"
+msgstr "Montant"
+
+#: admin/partials/class-wc-extra-shipping-method.php:1285
+msgid "Status"
+msgstr "statut"
+
+#: admin/partials/class-wc-extra-shipping-method.php:1286
+msgid "Action"
+msgstr "action"
+
+#: admin/partials/class-wc-extra-shipping-method.php:1305
+msgid "Enable"
+msgstr "Activer"
+
+#: admin/partials/class-wc-extra-shipping-method.php:1307
+msgid "Disable"
+msgstr "Désactiver"
+
+#: admin/partials/class-wc-extra-shipping-method.php:1311
+msgid "Edit"
+msgstr "modifier"
+
+#: admin/partials/class-wc-extra-shipping-method.php:1329
+msgid ""
+"Using Advance Flat Rate Shipping Method plugin, you can create multiple flat "
+"rate shipping methods. Using this plugin you can configure different "
+"parameters on which a particular Flat Rate Shipping method becomes availalbe "
+"to the customers at the time of checking out.<br/><br/> For example, you can "
+"create different flatrate shipping methods for all below situations: <br/"
+"><br/> 1. You can create Flat Ground Shipping - $10  and  Express Next Day "
+"Flat Shipping - $30. Based on customers selection, charges will be applied."
+"<br/> 2. You can create a conditional shipping method called  \"Discounted "
+"Shipping for order of minimum $500\"  -  $5 ,  This method will only be "
+"visible if the order amount is more then $500 <br/> 3. You can create "
+"multiple Flat Rate Methods, based on country. You can create different flat "
+"rates like \"Flat Shipping $5\" for USA, \"Flat Shipping $10\" for UK and "
+"\"Flat Shipping $20\" for France. etc.."
+msgstr ""
+"Utiliser Advance Flat Rate Méthode d'expédition plugin, vous pouvez créer "
+"plusieurs méthodes d'expédition forfaitaires . Grâce à ce plugin , vous "
+"pouvez configurer différents paramètres sur lesquels une méthode Flat Rate "
+"Frais de port particulier devient availalbe aux clients au moment de "
+"vérifier. <br/> Par exemple , vous pouvez créer différentes méthodes "
+"d'expédition de flatrate pour toutes les situations ci-dessous : <br/> 1. "
+"Vous pouvez créer Appartement Rez-de livraison - 10 $ et express Next Day "
+"Flat Expédition - 30 $ . Basé sur la sélection des clients , les frais "
+"seront appliqués <br/> 2. Vous pouvez créer une méthode d'expédition "
+"conditionnelle appelé \" port escompté pour l'ordre d' au moins 500 $ .» - 5 "
+"$, Cette méthode ne sera visible que si le montant de la commande est plus "
+"de 500 $ <br/> 3. Vous pouvez créer plusieurs plates Méthodes Notez , en "
+"fonction du pays . Vous pouvez créer différents taux forfaitaires comme "
+"\"Flat Expédition $ 5\" pour les USA, \"Flat Expédition $ 10\" pour le "
+"Royaume Uni et « Flat Expédition $ 20\" pour la France . etc."
+
+#: admin/partials/class-wc-extra-shipping-method.php:1409
+msgid "Advance Flat rate Shipping methods configuration"
+msgstr "Avance forfaitaire configuration Mode de livraison"
+
+#: admin/partials/class-wc-extra-shipping-method.php:1415
+msgid "Advance Flat rate Shipping method Rule"
+msgstr "Avance forfaitaire méthode d'expédition Règle"
+
+#: admin/partials/class-wc-extra-shipping-method.php:1422
+msgid "Advance Flat rate Shipping method Shipping Class Cost"
+msgstr "Avance forfaitaire Méthode d'expédition Classe Coût"
+
+#: includes/class-advance-flat-rate-shipping-method-for-woocommerce.php:223
+msgid "Settings"
+msgstr "Paramètres"
+
+#: includes/class-advance-flat-rate-shipping-method-for-woocommerce.php:224
+msgid "Docs"
+msgstr ""
+
+#: includes/class-advance-flat-rate-shipping-method-for-woocommerce.php:225
+msgid "Support"
+msgstr "Soutien"
+
+#: woocommerce/cart/cart-shipping.php:52
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr ""
+"Les frais de transport seront calculés une fois que vous avez fourni votre "
+"adresse ."
+
+#: woocommerce/cart/cart-shipping.php:54
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+"Il n'y a pas les méthodes d'expédition disponibles . S'il vous plaît "
+"vérifier votre adresse , ou nous contacter si vous avez besoin d'aide ."
